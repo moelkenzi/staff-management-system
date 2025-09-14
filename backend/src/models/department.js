@@ -14,7 +14,7 @@ const departmentSchema = new mongoose.Schema(
     },
     managerId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "Employee",
+      ref: "Manager",
     },
     isActive: {
       type: Boolean,

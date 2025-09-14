@@ -9,9 +9,11 @@ const attendanceRoutes = require("./src/routes/attendanceRoutes");
 const jobRoutes = require("./src/routes/jobRoutes");
 const payrollRoutes = require("./src/routes/payrollRoutes");
 const reportRoutes = require("./src/routes/reportRoutes");
+const departmentRoute = require("./src/routes/departmentRoute");
+const managerRouter = require("./src/routes/managerRouter");
 
 const app = express();
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.  PORT || 6000;
 
 // Middleware
 app.use(cors());
@@ -42,6 +44,8 @@ app.use("/api/attendance", attendanceRoutes);
 app.use("/api/jobs", jobRoutes);
 app.use("/api/payroll", payrollRoutes);
 app.use("/api/reports", reportRoutes);
+app.use("/api/departments", departmentRoute);
+app.use("/api/Manager", managerRouter);
 
 // Start server
 app.listen(PORT, () => {
