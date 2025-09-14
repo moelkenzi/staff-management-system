@@ -1,0 +1,35 @@
+{
+  "settings": {
+    "description": "Payroll generation settings and salary ranges",
+    "months": ["2024-10", "2024-11", "2024-12"],
+    "bonusPercentage": 10,
+    "bonusChance": 30,
+    "deductionPercentage": 15,
+    "salaryVariance": 20000
+  },
+  "salaryRanges": {
+    "Senior Software Engineer": 95000,
+    "Product Manager": 90000,
+    "UX Designer": 75000,
+    "Marketing Specialist": 55000,
+    "DevOps Engineer": 85000,
+    "HR Manager": 70000,
+    "Financial Analyst": 65000,
+    "Sales Representative": 50000,
+    "Frontend Developer": 70000,
+    "Customer Success Manager": 60000,
+    "Backend Developer": 75000,
+    "Content Writer": 45000,
+    "Quality Assurance Engineer": 60000,
+    "Business Analyst": 65000,
+    "Data Scientist": 90000
+  },
+  "sampleRecord": {
+    "month": "2024-12",
+    "salary": 75000,
+    "bonuses": 7500,
+    "deductions": 11250,
+    "netPay": 71250
+  },
+  "note": "Actual payroll records are generated dynamically based on these settings and employee positions"
+}

@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "description": "This file contains settings for generating attendance data",
+    "workingDays": 30,
+    "workStartTime": "08:00",
+    "workEndTime": "10:00",
+    "onTimePercentage": 90,
+    "skipWeekends": true
+  },
+  "sampleRecords": [
+    {
+      "date": "2024-12-15",
+      "checkInTime": "08:15",
+      "status": "on time"
+    },
+    {
+      "date": "2024-12-14",
+      "checkInTime": "09:05",
+      "status": "late"
+    },
+    {
+      "date": "2024-12-13",
+      "checkInTime": "08:30",
+      "status": "on time"
+    }
+  ],
+  "note": "Actual attendance records are generated dynamically in the seed script based on these settings"
+}

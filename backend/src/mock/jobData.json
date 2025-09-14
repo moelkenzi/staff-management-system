@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Senior Frontend Developer",
+    "description": "Lead frontend development using React and modern web technologies. Build responsive user interfaces and collaborate with design and backend teams.",
+    "requirements": [
+      "5+ years React experience",
+      "TypeScript proficiency",
+      "CSS/SCSS expertise",
+      "Git version control",
+      "Responsive design principles",
+      "Performance optimization"
+    ]
+  },
+  {
+    "title": "Marketing Coordinator",
+    "description": "Support marketing campaigns and content creation. Manage social media presence and analyze campaign performance.",
+    "requirements": [
+      "Marketing degree or equivalent experience",
+      "Social media management experience",
+      "Content writing skills",
+      "Analytics and reporting",
+      "Creative thinking",
+      "Project management"
+    ]
+  },
+  {
+    "title": "Data Analyst",
+    "description": "Analyze business data and create reports. Provide insights to support decision-making across departments.",
+    "requirements": [
+      "SQL proficiency",
+      "Python programming",
+      "Excel advanced features",
+      "Statistics knowledge",
+      "Data visualization tools",
+      "Business acumen"
+    ]
+  },
+  {
+    "title": "UX Designer",
+    "description": "Design user experiences for web and mobile applications. Conduct user research and create wireframes and prototypes.",
+    "requirements": [
+      "3+ years UX design experience",
+      "Figma or Sketch proficiency",
+      "User research methods",
+      "Prototyping skills",
+      "Design thinking process",
+      "Collaboration skills"
+    ]
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "Manage infrastructure, deployment pipelines, and monitoring systems. Ensure reliable and scalable application delivery.",
+    "requirements": [
+      "AWS or Azure experience",
+      "Docker and Kubernetes",
+      "CI/CD pipeline setup",
+      "Linux system administration",
+      "Scripting (Bash, Python)",
+      "Monitoring tools (Grafana, Prometheus)"
+    ]
+  },
+  {
+    "title": "Customer Success Manager",
+    "description": "Manage customer relationships and ensure successful product adoption. Drive customer satisfaction and retention.",
+    "requirements": [
+      "2+ years customer success experience",
+      "Strong communication skills",
+      "Problem-solving abilities",
+      "CRM software experience",
+      "Analytics and reporting",
+      "Customer-focused mindset"
+    ]
+  },
+  {
+    "title": "Backend Developer",
+    "description": "Develop server-side applications and APIs. Work with databases and integrate with third-party services.",
+    "requirements": [
+      "Node.js or Python experience",
+      "Database design (SQL/NoSQL)",
+      "RESTful API development",
+      "Authentication and security",
+      "Testing frameworks",
+      "Cloud platform knowledge"
+    ]
+  },
+  {
+    "title": "HR Specialist",
+    "description": "Support recruitment, employee relations, and HR policies. Assist with onboarding and performance management.",
+    "requirements": [
+      "HR degree or certification",
+      "Recruitment experience",
+      "Employee relations knowledge",
+      "HRIS software experience",
+      "Communication skills",
+      "Legal compliance awareness"
+    ]
+  }
+]

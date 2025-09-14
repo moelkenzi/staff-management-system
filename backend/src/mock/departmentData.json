@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Engineering",
+    "description": "Software development and technical infrastructure"
+  },
+  {
+    "name": "Human Resources",
+    "description": "Employee management, recruitment, and company policies"
+  },
+  {
+    "name": "Marketing",
+    "description": "Brand promotion, content creation, and customer acquisition"
+  },
+  {
+    "name": "Finance",
+    "description": "Financial planning, budgeting, and accounting"
+  },
+  {
+    "name": "Sales",
+    "description": "Customer acquisition and revenue generation"
+  },
+  {
+    "name": "Operations",
+    "description": "Business operations and process optimization"
+  },
+  {
+    "name": "Customer Success",
+    "description": "Customer support and relationship management"
+  },
+  {
+    "name": "Product Management",
+    "description": "Product strategy, planning, and development coordination"
+  },
+  {
+    "name": "Design",
+    "description": "User experience, interface design, and brand identity"
+  },
+  {
+    "name": "Data & Analytics",
+    "description": "Data analysis, reporting, and business intelligence"
+  }
+]

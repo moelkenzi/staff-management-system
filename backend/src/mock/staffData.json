@@ -1,0 +1,137 @@
+[
+  {
+    "name": "John Smith",
+    "email": "john.smith@company.com",
+    "staffId": "EMP001",
+    "department": "Engineering",
+    "position": "Senior Software Engineer",
+    "type": "office",
+    "status": "permanent"
+  },
+  {
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@company.com",
+    "staffId": "EMP002",
+    "department": "Product Management",
+    "position": "Product Manager",
+    "type": "office",
+    "status": "permanent"
+  },
+  {
+    "name": "Michael Brown",
+    "email": "michael.brown@company.com",
+    "staffId": "EMP003",
+    "department": "Design",
+    "position": "UX Designer",
+    "type": "remote",
+    "status": "permanent"
+  },
+  {
+    "name": "Emily Davis",
+    "email": "emily.davis@company.com",
+    "staffId": "EMP004",
+    "department": "Marketing",
+    "position": "Marketing Specialist",
+    "type": "office",
+    "status": "active"
+  },
+  {
+    "name": "David Wilson",
+    "email": "david.wilson@company.com",
+    "staffId": "EMP005",
+    "department": "Engineering",
+    "position": "DevOps Engineer",
+    "type": "office",
+    "status": "permanent"
+  },
+  {
+    "name": "Lisa Anderson",
+    "email": "lisa.anderson@company.com",
+    "staffId": "EMP006",
+    "department": "Human Resources",
+    "position": "HR Manager",
+    "type": "office",
+    "status": "permanent"
+  },
+  {
+    "name": "Robert Taylor",
+    "email": "robert.taylor@company.com",
+    "staffId": "EMP007",
+    "department": "Finance",
+    "position": "Financial Analyst",
+    "type": "office",
+    "status": "permanent"
+  },
+  {
+    "name": "Jennifer Martinez",
+    "email": "jennifer.martinez@company.com",
+    "staffId": "EMP008",
+    "department": "Sales",
+    "position": "Sales Representative",
+    "type": "office",
+    "status": "active"
+  },
+  {
+    "name": "Christopher Lee",
+    "email": "christopher.lee@company.com",
+    "staffId": "EMP009",
+    "department": "Engineering",
+    "position": "Frontend Developer",
+    "type": "remote",
+    "status": "active"
+  },
+  {
+    "name": "Amanda White",
+    "email": "amanda.white@company.com",
+    "staffId": "EMP010",
+    "department": "Customer Success",
+    "position": "Customer Success Manager",
+    "type": "office",
+    "status": "permanent"
+  },
+  {
+    "name": "James Garcia",
+    "email": "james.garcia@company.com",
+    "staffId": "EMP011",
+    "department": "Engineering",
+    "position": "Backend Developer",
+    "type": "office",
+    "status": "active"
+  },
+  {
+    "name": "Michelle Rodriguez",
+    "email": "michelle.rodriguez@company.com",
+    "staffId": "EMP012",
+    "department": "Marketing",
+    "position": "Content Writer",
+    "type": "remote",
+    "status": "active"
+  },
+  {
+    "name": "Kevin Thompson",
+    "email": "kevin.thompson@company.com",
+    "staffId": "EMP013",
+    "department": "Engineering",
+    "position": "Quality Assurance Engineer",
+    "type": "office",
+    "status": "active"
+  },
+  {
+    "name": "Nicole Clark",
+    "email": "nicole.clark@company.com",
+    "staffId": "EMP014",
+    "department": "Operations",
+    "position": "Business Analyst",
+    "type": "office",
+    "status": "permanent"
+  },
+  {
+    "name": "Daniel Lewis",
+    "email": "daniel.lewis@company.com",
+    "staffId": "EMP015",
+    "department": "Data & Analytics",
+    "position": "Data Scientist",
+    "type": "office",
+    "status": "permanent"
+  }
+]

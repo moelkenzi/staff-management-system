@@ -1,0 +1,42 @@
+[
+  {
+    "type": "attendance",
+    "title": "Monthly Attendance Report",
+    "description": "Comprehensive attendance analysis for the month",
+    "fromDate": "2024-12-01",
+    "toDate": "2024-12-31",
+    "generatedByRole": "HR Manager"
+  },
+  {
+    "type": "payroll",
+    "title": "Monthly Payroll Summary",
+    "description": "Detailed payroll breakdown and analysis",
+    "fromDate": "2024-12-01",
+    "toDate": "2024-12-31",
+    "generatedByRole": "Financial Analyst"
+  },
+  {
+    "type": "attendance",
+    "title": "Quarterly Attendance Review",
+    "description": "Quarterly attendance trends and patterns",
+    "fromDate": "2024-10-01",
+    "toDate": "2024-12-31",
+    "generatedByRole": "HR Manager"
+  },
+  {
+    "type": "payroll",
+    "title": "Year-End Payroll Report",
+    "description": "Annual payroll summary and tax documentation",
+    "fromDate": "2024-01-01",
+    "toDate": "2024-12-31",
+    "generatedByRole": "Financial Analyst"
+  },
+  {
+    "type": "attendance",
+    "title": "Weekly Attendance Report",
+    "description": "Weekly attendance monitoring and late arrivals",
+    "fromDate": "2024-12-16",
+    "toDate": "2024-12-22",
+    "generatedByRole": "HR Manager"
+  }
+]
