@@ -118,15 +118,17 @@ const seedDatabase = async () => {
     // 5. Seed Payroll
     console.log("💰 Seeding payroll records...");
     const payrollData = [];
-    const settings = payrollSettings.settings;
+    const payrollSettings_config = payrollSettings.settings;
 
     for (const employee of staff) {
-      for (const month of settings.months) {
+      for (const month of payrollSettings_config.months) {
         const salary = generateRandomSalary(employee.position);
-        const bonusChance = settings.bonusChance / 100;
+        const bonusChance = payrollSettings_config.bonusChance / 100;
         const bonuses =
-          Math.random() > bonusChance ? Math.floor(salary * (settings.bonusPercentage / 100)) : 0;
-        const deductions = Math.floor(salary * (settings.deductionPercentage / 100));
+          Math.random() > bonusChance
+            ? Math.floor(salary * (payrollSettings_config.bonusPercentage / 100))
+            : 0;
+        const deductions = Math.floor(salary * (payrollSettings_config.deductionPercentage / 100));
         const netPay = salary + bonuses - deductions;
 
         payrollData.push({
