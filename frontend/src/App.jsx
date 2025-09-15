@@ -1,18 +1,20 @@
 import { Route, Routes } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
-import Header from "./components/sections/Header";
+import { NavBar } from "./components/sections/Navbar";
+import Footer from "./components/sections/Footer";
 
 const App = () => {
   return (
-    <>
-      <main className="relative w-full min-h-screen overflow-x-hidden">
-        <Header />
+    <div className="min-h-screen flex flex-col">
+      <NavBar />
+      <main className="flex-grow">
         <Routes>
           <Route path="/" element={<HomePage />} />
         </Routes>
       </main>
-    </>
+      <Footer />
+    </div>
   );
 };
 export default App;

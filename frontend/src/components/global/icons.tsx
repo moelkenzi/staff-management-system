@@ -54,3 +54,183 @@ export const Logo = ({ className }: { className?: string }) => {
     </svg>
   );
 };
+
+export const LogoMark = ({ className }: { className?: string }) => {
+  return (
+    <svg
+      width="25"
+      height="25"
+      viewBox="0 0 25 25"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}>
+      <circle
+        cx="6.83696"
+        cy="-1.63104"
+        r="9.9559"
+        transform="rotate(-22 6.83696 -1.63104)"
+        fill="#7152F3"
+      />
+      <circle
+        cx="18.2559"
+        cy="26.6308"
+        r="9.9559"
+        transform="rotate(-22 18.2559 26.6308)"
+        fill="#7152F3"
+      />
+      <circle
+        cx="-1.58394"
+        cy="18.2093"
+        r="9.9559"
+        transform="rotate(-22 -1.58394 18.2093)"
+        fill="#7152F3"
+      />
+      <circle
+        cx="26.4156"
+        cy="6.14346"
+        r="9.9559"
+        transform="rotate(-22 26.4156 6.14346)"
+        fill="#7152F3"
+      />
+    </svg>
+  );
+};
+
+export const Grids = ({ className }: { className?: string }) => {
+  return (
+    <svg
+      width="1920"
+      height="637"
+      viewBox="0 0 1920 637"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}>
+      <g clip-path="url(#clip0_14_11260)">
+        <mask
+          id="mask0_14_11260"
+          style={{ maskType: "alpha" }}
+          maskUnits="userSpaceOnUse"
+          x="0"
+          y="0"
+          width="1920"
+          height="637">
+          <rect width="1920" height="637" fill="url(#paint0_radial_14_11260)" />
+        </mask>
+        <g mask="url(#mask0_14_11260)">
+          <g clip-path="url(#clip1_14_11260)">
+            <rect width="2" height="637" fill="#818CF8" fill-opacity="0.5" />
+            <rect
+              width="2"
+              height="637"
+              transform="translate(213.109)"
+              fill="#818CF8"
+              fill-opacity="0.5"
+            />
+            <rect
+              width="2"
+              height="637"
+              transform="translate(426.218)"
+              fill="#818CF8"
+              fill-opacity="0.5"
+            />
+            <g clip-path="url(#clip2_14_11260)">
+              <rect
+                width="2"
+                height="637"
+                transform="translate(639.327)"
+                fill="#818CF8"
+                fill-opacity="0.5"
+              />
+            </g>
+            <rect
+              width="2"
+              height="637"
+              transform="translate(852.436)"
+              fill="#818CF8"
+              fill-opacity="0.5"
+            />
+            <rect
+              width="2"
+              height="637"
+              transform="translate(1065.54)"
+              fill="#818CF8"
+              fill-opacity="0.5"
+            />
+            <g clip-path="url(#clip3_14_11260)">
+              <rect
+                width="2"
+                height="637"
+                transform="translate(1278.65)"
+                fill="#818CF8"
+                fill-opacity="0.5"
+              />
+            </g>
+            <rect
+              width="2"
+              height="637"
+              transform="translate(1491.76)"
+              fill="#818CF8"
+              fill-opacity="0.5"
+            />
+            <rect
+              width="2"
+              height="637"
+              transform="translate(1704.87)"
+              fill="#818CF8"
+              fill-opacity="0.5"
+            />
+            <rect
+              width="2"
+              height="637"
+              transform="translate(1917.98)"
+              fill="#818CF8"
+              fill-opacity="0.5"
+            />
+            <rect width="1920" height="2" fill="#818CF8" fill-opacity="0.5" />
+            <rect
+              width="1920"
+              height="2"
+              transform="translate(0 127)"
+              fill="#818CF8"
+              fill-opacity="0.5"
+            />
+            <rect y="254" width="1920" height="2" fill="#818CF8" fill-opacity="0.5" />
+            <rect
+              width="1920"
+              height="2"
+              transform="translate(0 381)"
+              fill="#818CF8"
+              fill-opacity="0.5"
+            />
+            <rect y="508" width="1920" height="2" fill="#818CF8" fill-opacity="0.5" />
+            <rect y="635" width="1920" height="2" fill="#818CF8" fill-opacity="0.5" />
+          </g>
+        </g>
+      </g>
+      <defs>
+        <radialGradient
+          id="paint0_radial_14_11260"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(960 318.5) scale(806.4 318.5)">
+          <stop />
+          <stop offset="1" stop-opacity="0" />
+        </radialGradient>
+        <clipPath id="clip0_14_11260">
+          <rect width="1920" height="637" fill="white" />
+        </clipPath>
+        <clipPath id="clip1_14_11260">
+          <rect width="1920" height="637" fill="white" />
+        </clipPath>
+        <clipPath id="clip2_14_11260">
+          <rect width="2" height="637" fill="white" transform="translate(639.327)" />
+        </clipPath>
+        <clipPath id="clip3_14_11260">
+          <rect width="2" height="637" fill="white" transform="translate(1278.65)" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
