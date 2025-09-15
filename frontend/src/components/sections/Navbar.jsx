@@ -28,13 +28,25 @@ export function NavBar() {
           </NavLink>
           <nav className="hidden sm:block md:absolute md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:transform">
             <div className="flex items-center gap-10 font-medium">
-              <NavLink className="px-2 py-1 text-gray-900" to="#solutions">
+              <NavLink 
+                className="px-2 py-1.5 text-gray-900 hover:text-primary transition-colors duration-200"
+                activeClassName="text-primary"
+                to="/dashboard"
+              >
                 Features
               </NavLink>
-              <NavLink className="px-2 py-1 text-gray-900" to="#employee-management">
+              <NavLink 
+                className="px-2 py-1.5 text-gray-900 hover:text-primary transition-colors duration-200"
+                activeClassName="text-primary"
+                to="#employee-management"
+              >
                 Employee Management
               </NavLink>
-              <NavLink className="px-2 py-1 text-gray-900" to="#reports-analytics">
+              <NavLink 
+                className="px-2 py-1.5 text-gray-900 hover:text-primary transition-colors duration-200"
+                activeClassName="text-primary"
+                to="#reports-analytics"
+              >
                 Reports & Analytics
               </NavLink>
             </div>
