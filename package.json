@@ -1,0 +1,12 @@
+{
+  "name": "staff-management-system",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "build": "cd frontend && bun install && bun run build",
+    "dev": "cd frontend && bun run dev",
+    "start": "cd frontend && bun run start"
+  }
+}
