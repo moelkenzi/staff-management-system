@@ -1,10 +1,22 @@
-import { Button } from "./components/ui/button";
+// import { Button } from "./components/ui/button";
 
-export default function App() {
+import EmployeeFilterPanelUI from "./Dashboard Component/Employee/EmployeeFilterPanelUI";
+import { EmployeeDetailsLeaves } from "./Dashboard Component/Employee/leave";
+
+
+
+
+
+ function App() {
   return (
-    <main>
-      <h1 className="text-3xl font-bold underline">Hello From The Staff Management System!</h1>
-      <Button>Hello</Button>
-    </main>
+   
+    <>
+    
+ 
+  <EmployeeDetailsLeaves />
+    </>
   );
 }
+
+
+export default App
