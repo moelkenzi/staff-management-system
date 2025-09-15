@@ -157,3 +157,17 @@
   }
 }
 
+/* For Chrome, Safari */
+/* ::-webkit-scrollbar {
+  width: 0; 
+} */
+
+/* For Firefox */
+/* html {
+  scrollbar-width: none;
+} */
+
+/* Still allow scrolling */
+/* html, body {
+  overflow-y: scroll;
+} */
