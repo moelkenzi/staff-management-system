@@ -1,22 +1,18 @@
-// import { Button } from "./components/ui/button";
+import { Route, Routes } from "react-router-dom";
 
-import EmployeeFilterPanelUI from "./Dashboard Component/Employee/EmployeeFilterPanelUI";
-import { EmployeeDetailsLeaves } from "./Dashboard Component/Employee/leave";
+import HomePage from "./pages/HomePage";
+import Header from "./components/sections/Header";
 
-
-
-
-
- function App() {
+const App = () => {
   return (
-   
     <>
-    
- 
-  <EmployeeDetailsLeaves />
+      <main className="relative w-full min-h-screen overflow-x-hidden">
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </main>
     </>
   );
-}
-
-
-export default App
+};
+export default App;
