@@ -11,7 +11,7 @@ export default function DashboardLayout() {
           <header className="flex flex-row items-center px-2 pt-4">
             <SidebarTrigger />
           </header>
-          <main className="@container/main flex flex-1 flex-col w-full">
+          <main className="@container/main flex flex-1 flex-col w-full lg:px-4">
             <Outlet />
           </main>
         </div>

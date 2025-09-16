@@ -19,8 +19,8 @@ export function NavMain({ items }) {
             <SidebarMenuItem key={item.title}>
               <NavLink to={item.url} className="w-full">
                 {({ isActive }) => (
-                  <SidebarMenuButton isActive={isActive} tooltip={item.title}>
-                    {item.icon && <item.icon />}
+                  <SidebarMenuButton isActive={isActive} tooltip={item.title} className="gap-3">
+                    {item.icon && <item.icon className="!size-5" />}
                     <span>{item.title}</span>
                   </SidebarMenuButton>
                 )}
